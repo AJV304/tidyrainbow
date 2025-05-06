@@ -30,13 +30,6 @@ Each dataset was cleaned by removing the rows 1 to 14, deleted column `question_
 | 3      | Hate-motivated violence and harassment 	|
 | 4      | The situation of intersex persons 		|
 
-### Questions
-
-- 1. *Do you avoid holding hands in public with a same-sex partner for fear of being assaulted, threatened or harassed ?*  
-- 2. *Do you avoid certain places or locations for fear of being assaulted, threatened or harassed due to being LGBTI?*   
-- 3. *Where do you avoid being open about yourself as LGBTI for fear of being assaulted, threatened or harassed by others?*
-- 4. *How old were you when you realized for the first time you were LGB?*             - 5. *Feeling downhearted/ depressed in th epast 2 weeks*
-
   
 ### Target group: 
 
@@ -74,9 +67,17 @@ Each dataset was cleaned by removing the rows 1 to 14, deleted column `question_
 |            | polygender                                         | 
 
 
+### Questions
+
+- 1. *Do you avoid holding hands in public with a same-sex partner for fear of being assaulted, threatened or harassed ?*  
+- 2. *Do you avoid certain places or locations for fear of being assaulted, threatened or harassed due to being LGBTI?*   
+- 3. *Where do you avoid being open about yourself as LGBTI for fear of being assaulted, threatened or harassed by others?*
+- 4. *How old were you when you realized for the first time you were LGB?*             
+- 5. *Feeling downhearted/ depressed in the past 2 weeks*
 
 
-### Data
+### Data file organization
+Each of the 5 files is related to one of the questions mentioned above. Within each question the sheets are organized as follows.
 
 | dataset sheet number    | filename             | description  (categories or factors)             |   
 | :---------------------- | :--------------------|------------------------------------------------- | 
